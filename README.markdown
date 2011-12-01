@@ -13,8 +13,8 @@ Use this queue assignment policy if you want Heritrix to create a number of para
 
 Usage in `crawler-beans.cxml`:
 
->  <bean id="queueAssignmentPolicy" 
->    class="org.archiveteam.crawler.frontier.HashingQueueAssignmentPolicy">
->    <property name="parallelQueues" value="5" />
->  </bean>
+    <bean id="queueAssignmentPolicy" 
+      class="org.archiveteam.crawler.frontier.HashingQueueAssignmentPolicy">
+      <property name="parallelQueues" value="5" />
+    </bean>
 
